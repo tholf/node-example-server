@@ -1,0 +1,16 @@
+### Send POST request with body as parameters
+POST http://localhost:3000/api/user
+Content-Type: application/x-www-form-urlencoded
+
+username=Person&email=example@example.com
+
+### Send POST request with json body
+POST http://localhost:3000/api/user
+Content-Type: application/json
+
+{
+  "username": "Person",
+  "email": "example@example.com"
+}
+
+###
