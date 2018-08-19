@@ -24,8 +24,9 @@ app.get('/api', function (req, res) {
 //****************
 // 3. Example route to handle POST-request
 //****************
-let user = {};
 app.post('/api/user', function (req, res) {
+
+  let user = {};
 
   // Handle incoming request. For now we assume the
   // parameters 'username' and 'email' being in the request body.
